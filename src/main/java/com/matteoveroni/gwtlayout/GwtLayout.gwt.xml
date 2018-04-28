@@ -6,12 +6,15 @@
 <module rename-to='gwtlayout'>
 
     <inherits name='com.google.gwt.user.User'/>
-    <!--<inherits name="com.google.gwt.logging.Logging"/>-->
+    <inherits name="com.google.gwt.logging.Logging"/>
     <!--<inherits name="com.google.gwt.resources.Resources" />-->
+    
+    <inherits name='elemental2.core.Core'/>
+    <inherits name='elemental2.dom.Dom'/>
 
-    <!-- slf4j - logging -->
-    <!--<set-property name="gwt.logging.enabled" value="TRUE"/>-->
-    <!--<set-property name="gwt.logging.logLevel" value="ALL"/>-->
+     <!--slf4j - logging--> 
+    <set-property name="gwt.logging.enabled" value="TRUE"/>
+    <set-property name="gwt.logging.logLevel" value="ALL"/>
     
     <entry-point class="com.matteoveroni.gwtlayout.client.GwtLayoutEntryPoint"/>
 

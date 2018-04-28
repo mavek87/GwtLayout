@@ -1,0 +1,46 @@
+#gwt-layout-footer {
+    border: 1px solid black;
+    background: red;
+    background-color: red;
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 30px;
+}
+
+#gwt-layout-footer #gwt-layout-footer-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#gwt-layout-header {
+    border: 1px solid black;
+    background: blue;
+    background-color: blue;
+    color: white;
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 30px;
+}
+
+#gwt-layout-header #gwt-layout-header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.trecento {
+    height: 300px;
+}
+
+.seicento {
+    height: 600px;
+}
